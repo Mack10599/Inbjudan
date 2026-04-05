@@ -40,10 +40,13 @@ margin: 0;
 .card {
   max-width: 600px;
   margin: auto;
-  background: white;
-  padding: 40px 25px;
-  border-radius: 20px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  background: rgba(255, 255, 255, 0.65);
+  padding: 50px 30px;
+  border-radius: 24px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(194, 155, 90, 0.15);
+  backdrop-filter: blur(4px);
+
 }
 
 /* Rubrik */
@@ -73,6 +76,10 @@ h2 {
   margin-bottom: 8px;
 }
 
+.info-button {
+  color: #b08d2f;
+}
+
 /* Knapp */
 .map-button {
   display: inline-block;
@@ -86,6 +93,7 @@ h2 {
   border-radius: 20px;
   transition: 0.3s;
 }
+
 
 .map-button:hover {
   background-color: #f8f1dc;
@@ -114,4 +122,20 @@ svg {
   height: 22px;
   vertical-align: middle;
   margin-right: 6px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ .page {
+  margin: 130px auto 0;
+  padding: 50px 30px;
+  max-width: auto;
+
+  background: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(194, 155, 90, 0.15);
+  backdrop-filter: blur(4px);
 }
