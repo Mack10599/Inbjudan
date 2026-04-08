@@ -260,6 +260,9 @@ html {
   .page {
     margin: 36px auto 0;
     padding: 26px 14px;
-    background-image: none;
+    background-image: url("cake.JPG"), url("Barn.JPG");
+    background-size: 20% auto, 20% auto;
+    background-position: left 12px top 18px, right 12px bottom 18px;
+    background-repeat: no-repeat, no-repeat;
   }
 }
