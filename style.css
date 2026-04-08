@@ -148,12 +148,12 @@ html {
 
   .card {
     max-width: 100%;
-    padding: 36px 20px 28px;
+    padding: 44px 20px 28px;
     border-radius: 18px;
   }
 
   .names {
-    margin-top: 95px;
+    margin-top: 118px;
   }
 
   h1 {
@@ -174,6 +174,8 @@ html {
   .section {
     margin-top: 18px;
     padding-top: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   h2 {
@@ -200,12 +202,12 @@ html {
   }
 
   .card {
-    padding: 20px 14px 18px;
+    padding: 34px 14px 22px;
     border-radius: 14px;
   }
 
   .names {
-    margin-top: 62px;
+    margin-top: 108px;
   }
 
   h1 {
@@ -227,6 +229,8 @@ html {
   .section {
     margin-top: 12px;
     padding-top: 10px;
+    margin-left: 22px;
+    margin-right: 22px;
   }
 
   .section p {
