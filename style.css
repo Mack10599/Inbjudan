@@ -3,35 +3,14 @@ margin: 0;
   padding: 40px 20px;
   font-family: Georgia, serif;
   text-align: center;
-    color: #b08d2f;
-
-
-  background: 
-    linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
-    url("blommor.jpeg");
-
-  background-size: cover;
-  background-position: center;
-    
+  color: #393636;
+  background-color: #fcfbf8;
   
-}
-.ornament {
-  font-size: 24px;
-    color: #b08d2f;
-  margin-bottom: 12px;
-}
-
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 12px;
-    color: #b08d2f;
-  margin-bottom: 10px;
 }
 
 .date {
   font-size: 22px;
-  color: #b08d2f;
+  color: #393636;
   margin-top: -5px;
   margin-bottom: 20px;
 }
@@ -40,18 +19,27 @@ margin: 0;
 .card {
   max-width: 600px;
   margin: auto;
-  background: rgba(255, 255, 255, 0.65);
-  padding: 50px 30px;
+  padding: 70px 40px;
   border-radius: 24px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(194, 155, 90, 0.15);
   backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: url("Ram.JPG");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
+.names {
+  margin-top: 200px;
+}
+
+
 /* Rubrik */
 h1 {
-  color: #b08d2f;
+  color: #393636;
   font-size: 36px;
   font-weight: normal;
   margin-bottom: 10px;
@@ -71,13 +59,13 @@ h1 {
 }
 
 h2 {
-    color: #b08d2f;
+    color: #393636;
   font-weight: normal;
   margin-bottom: 8px;
 }
 
 .info-button {
-  color: #b08d2f;
+  color: #393636;
 }
 
 /* Knapp */
@@ -87,9 +75,9 @@ h2 {
   padding: 6px 14px;
   font-size: 14px;
   background-color: transparent;
-  color: #b08d2f;
+  color: #393636;
   text-decoration: none;
-  border: 1px solid #d4af37;
+  border: 1px solid #393636;
   border-radius: 20px;
   transition: 0.3s;
 }
@@ -105,9 +93,9 @@ h2 {
   padding: 6px 14px;
   font-size: 14px;
   background-color: transparent;
-  color: #b08d2f;
+  color: #393636;
   text-decoration: none;
-  border: 1px solid #d4af37;
+  border: 1px solid #393636;
   border-radius: 20px;
   transition: 0.3s;
 }
@@ -117,7 +105,7 @@ h2 {
 }
 
 svg {
-  color: #b08d2f;
+  color: #393636;
   width: 22px;
   height: 22px;
   vertical-align: middle;
@@ -133,9 +121,14 @@ html {
   padding: 50px 30px;
   max-width: auto;
 
-  background: rgba(255, 255, 255, 1);
+  background-color : #fcfbf8;
   border-radius: 24px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(194, 155, 90, 0.15);
   backdrop-filter: blur(4px);
+
+  background-image: url("cake.JPG"), url("Barn.JPG");
+  background-size: 30% auto, 30% auto;
+  background-position: left 10%, right 10%;
+  background-repeat: no-repeat, no-repeat;
 }
