@@ -132,3 +132,10 @@ html {
   background-position: left 10%, right 10%;
   background-repeat: no-repeat, no-repeat;
 }
+
+@media (max-width: 768px) {
+  .page {
+    background-size: 18% auto, 18% auto;
+    background-position: left top, right bottom;
+  }
+}
