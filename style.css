@@ -18,7 +18,7 @@ margin: 0;
 /* Kortet */
 .card {
   max-width: 560px;
-  margin: auto;
+  margin: 0px auto 300px;
   padding: 50px 32px 40px;
   border-radius: 24px;
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
@@ -149,7 +149,7 @@ html {
   .card {
     max-width: 100%;
     padding: 40px 18px 24px;
-     margin: 0 auto 40px;
+     margin: 0 auto 70px;
     border-radius: 18px;
   }
 
@@ -205,7 +205,7 @@ html {
 
   .card {
     padding: 30px 12px 20px;
-     margin: 0 auto 32px;
+     margin: 0 auto 50px;
     border-radius: 14px;
   }
 
